@@ -1,29 +1,16 @@
-# account-book
+# 记账本前端服务
+实现记账本前端UX
 
-## Project setup
-```
-npm install
-```
+## 开发环境
+1. 运行记账本后端服务
+参考：https://github.com/zzz945/xmind-assignment-account-book-api
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+2. 安装依赖
+```sh
+# npm install
 ```
 
-### Run your tests
+3. 运行服务
+```sh
+# npm run serve
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -1,16 +1,14 @@
 <template>
   <div id="app">
-    <account-book />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import AccountBook from './pages/account-book'
 
 export default {
   name: 'App',
   components: {
-    AccountBook
   }
 }
 </script>
@@ -20,8 +18,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  padding: 20px;
 }
 </style>
